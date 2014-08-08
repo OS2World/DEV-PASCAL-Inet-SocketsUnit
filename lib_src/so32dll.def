@@ -1,0 +1,35 @@
+LIBRARY SO32DLL
+
+EXPORTS
+  accept                 @1
+  bind                   @2
+  connect                @3
+  gethostid              @4
+  getpeername            @5
+  getsockname            @6
+  getsockopt             @7
+  os2_ioctl              @8
+  listen                 @9
+  recv                   @10
+  recvfrom               @11
+  os2_select             @12
+  send                   @13
+  sendto                 @14
+  setsockopt             @15
+  socket                 @16
+  soclose                @17
+  so_cancel              @18
+  soabort                @19
+  sock_errno             @20
+  recvmsg                @21
+  sendmsg                @22
+  readv                  @23
+  writev                 @24
+  shutdown               @25
+  sock_init              @26
+  addsockettolist        @27
+  removesocketfromlist   @28
+; entry 29 not used
+  psock_errno            @30
+  getinetversion         @31
+  select                 @32

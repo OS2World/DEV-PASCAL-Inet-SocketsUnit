@@ -1,0 +1,18 @@
+LIBRARY TCP32DLL
+
+EXPORTS
+  inet_addr              @5
+  inet_lnaof             @6
+  inet_netof             @7
+  inet_makeaddr          @8
+  inet_network           @9
+  inet_ntoa              @10
+  gethostbyname          @11
+  gethostbyaddr          @12
+  getprotobyname         @21
+  getprotobynumber       @22
+  getservbyport          @23
+  getservbyname          @24
+  gethostname            @44
+  h_errno                @51
+; TCP_H_ERRNO in real life
